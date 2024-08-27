@@ -29,13 +29,13 @@ The Weather App is a React-based web application that allows users to view curre
 ## ScreenShots
 
 ### Desktop View
-![Desktop View](screenshots/desktop-view.png)
+![Desktop View](screenshots/desktop-view.jpg)
 
 ### Tablet View
-![Tablet View](screenshots/tablet-view.png)
+![Tablet View](screenshots/tablet-view.jpg)
 
 ### Mobile View
-![Mobile View](screenshots/mobile-view.png)
+![Mobile View](screenshots/mobile-view.jpg)
 ## Brief Description of Approach
 1.** Project Structure and Setup**
 
