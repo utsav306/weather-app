@@ -87,4 +87,4 @@ The app interacts with the OpenWeatherMap API to fetch weather and forecast data
 
 ## Deployed View
 
-[Link Text](https://weatherappbyutsav.netlify.app/)
+[https://weatherappbyutsav.netlify.app/](https://weatherappbyutsav.netlify.app/)
