@@ -27,6 +27,7 @@ The Weather App is a React-based web application that allows users to view curre
       ```bash
       npm start
 ## ScreenShots
+
 ### Desktop View
 ![Desktop View](screenshots/desktop-view.png)
 
@@ -35,7 +36,6 @@ The Weather App is a React-based web application that allows users to view curre
 
 ### Mobile View
 ![Mobile View](screenshots/mobile-view.png)
-
 ## Brief Description of Approach
 1.** Project Structure and Setup**
 
