@@ -83,3 +83,8 @@ The app interacts with the OpenWeatherMap API to fetch weather and forecast data
     Recent Searches: The list of recent searches is maintained and displayed, allowing users to quickly access previously searched cities.
 
     Geolocation: Users can use their current location to fetch weather data, providing a more personalized experience.
+
+
+## Deployed View
+
+[Link Text](https://weatherappbyutsav.netlify.app/)
