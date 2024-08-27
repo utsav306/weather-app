@@ -1,0 +1,218 @@
+
+.container {
+   padding-top: 3rem;
+   padding-left: 3rem;
+ 
+      font-family: Arial, sans-serif;
+      color: #333;
+      background-color: #e0f7fa; /* White background for content area */
+      border-radius: 10px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    }
+    
+    /* Heading */
+    h1 {
+      font-size: 2.5rem;
+      color: #00796b; /* Teal */
+      text-align: center;
+      margin-bottom: 20px;
+    }
+    
+    /* Form styling */
+    form {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin-bottom: 20px;
+    }
+    
+    .form-control {
+      padding: 10px;
+      width: 100%;
+      max-width: 400px;
+      border: 1px solid #00796b; /* Teal border */
+      border-radius: 5px;
+      margin-bottom: 10px;
+      font-size: 1rem;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    }
+    
+    .btn {
+      padding: 10px 20px;
+      border: none;
+      border-radius: 5px;
+      font-size: 1rem;
+      color: #fff;
+      cursor: pointer;
+      margin: 5px;
+      transition: background-color 0.3s;
+    }
+    
+    .btn-primary {
+      background-color: #00796b; /* Teal */
+    }
+    
+    .btn-secondary {
+      background-color: #004d40; /* Darker teal */
+    }
+    
+    .btn-primary:hover {
+      background-color: #004d40; /* Darker teal */
+    }
+    
+    .btn-secondary:hover {
+      background-color: #00332e; /* Even darker teal */
+    }
+    
+    /* Error message */
+    .error-message {
+      color: #d32f2f; /* Red */
+      text-align: center;
+      font-size: 1rem;
+      margin-top: 10px;
+    }
+    
+    /* Weather card */
+    .weather-card {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      background-color: #ffffff;
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      border: 1px solid #004d40; /* Darker teal border */
+    }
+    
+    /* Weather info */
+    .weather-info {
+      text-align: center;
+    }
+    
+    .weather-info h2 {
+      font-size: 2rem;
+      color: #00796b; /* Teal */
+    }
+    
+    .weather-icon {
+      width: 100px;
+      height: 100px;
+    }
+    
+    .weather-details-grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 15px;
+      margin-top: 20px;
+    }
+    
+    .detail-item {
+      background-color: #e0f2f1; /* Light teal shade */
+      padding: 10px;
+      border-radius: 8px;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+      text-align: center;
+    }
+    
+    .detail-label {
+      font-size: 0.9rem;
+      color: #004d40; /* Darker teal */
+    }
+    
+    .detail-value {
+      font-size: 1.2rem;
+      font-weight: bold;
+      color: #333;
+    }
+    
+    /* Forecast container */
+    .forecast-container {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 15px;
+      padding: 20px;
+    }
+    
+    /* Forecast item */
+    .forecast-item {
+      background-color: #ffffff;
+      padding: 15px;
+      border-radius: 8px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+      text-align: center;
+      border: 1px solid #004d40; /* Darker teal border */
+    }
+    
+    .forecast-item img {
+      width: 60px;
+      height: 60px;
+    }
+    
+    .forecast-item p {
+      margin: 5px 0;
+      font-size: 0.9rem;
+    }
+    @media (max-width: 600px) {
+      .weather-details-grid {
+          grid-template-columns: repeat(2, 1fr);
+      }
+      .forecast-container {
+          grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+      }
+  }
+  .btn {
+    transition: transform 0.3s ease;
+}
+.btn:hover {
+    transform: scale(1.05);
+}
+
+.weather-icon {
+    transition: transform 0.3s ease;
+}
+.weather-icon:hover {
+    transform: rotate(10deg);
+}
+  /* Loading Indicator */
+  .spinner {
+    border: 4px solid rgba(0, 0, 0, 0.1);
+    border-left-color: #000;
+    border-radius: 50%;
+    width: 24px;
+    height: 24px;
+    animation: spin 1s linear infinite;
+    display: inline-block;
+    margin-right: 8px;
+  }
+  
+  @keyframes spin {
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+
+  .suggestions-list {
+    list-style-type: none;
+    padding: 0;
+    margin: 2.5rem;
+    border: 1px solid #ccc;
+    max-height: 150px;
+    overflow-y: auto;
+    position: absolute;
+    background-color: white;
+    width: auto;
+  }
+  
+  .suggestion-item {
+    padding: 8px;
+    cursor: pointer;
+  }
+  
+  .suggestion-item:hover {
+    background-color: #f0f0f0;
+  }
+  
+  
